@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: Consolas, Monaco; */
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(201, 147, 255);
+    padding: 20px 0;
+}
+
+table {
+    margin: 0 10%;
+}
+
+tr {
+    padding: 10px;
+    outline: 1px solid rgb(201, 147, 255);
+}
+
+
+
+.emoji {
+    font-size: 50px;
+    margin-right: 70px;
+}
+
+
+.alias,
+.desc {
+    font-size: 25px;
+    font-family: Consolas, Monaco;
+}
+
+
+#search {
+    display: block;
+    font-size: 30px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
